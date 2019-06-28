@@ -15,12 +15,9 @@ def select_files():
     Returns list of files names with the directory
     '''
     root = tkinter.Tk()
-    
     root.withdraw()
     
-    filenames = filedialog.askopenfilenames(parent=root)
-    
-    return filenames
+    return filedialog.askopenfilenames(parent=root)
 
 def select_file():
     '''
@@ -28,9 +25,6 @@ def select_file():
     Returns a file names with the directory
     '''
     root = tkinter.Tk()
-    
     root.withdraw()
     
-    filename = filedialog.askopenfilename(parent=root)
-    
-    return filename
+    return filedialog.askopenfilename(parent=root)
